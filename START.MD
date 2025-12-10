@@ -13,6 +13,10 @@ cd /path/to/your/project
 ---
 
 ## ✅ 2. Initialiser un dépôt Git local (si ce n'est pas déjà le cas)
+>> Pour s'en assurer, faire 
+```bash
+git status
+```
 
 ```bash
 git init
@@ -21,12 +25,11 @@ Cela crée un dossier `.git` qui transforme votre dossier en dépôt Git.
 
 ---
 
-## ✅ 3. Ajouter tous les fichiers existants
+## ✅ 3. Ajouter tous les fichiers existants 
 
 ```bash
 git add .
 ```
-
 ---
 
 ## ✅ 4. Créer un premier commit
@@ -39,12 +42,9 @@ git commit -m "Initial commit"
 
 ## ✅ 5. Ajouter le dépôt distant
 
-Exemple pour GitHub :
-
 ```bash
-git remote add origin https://github.com/username/repo.git
+git remote add origin [VOTRE REPO]
 ```
-
 ---
 
 ## ✅ 6. Pousser le code vers la branche principale
